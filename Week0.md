@@ -40,4 +40,4 @@ open /home/gitpod/.terraform.d/credentials.tfrc.json
 ``````
 
 - Thereafter, run `terraform init` to move your state file to TFC. You should then see this in yur TF account, showing the resources and indicating that the migration has been successful.
-![image](../Images/Resources-in-TFC.png)
+![image](Images/Resources-in-TFC.png)

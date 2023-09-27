@@ -44,3 +44,8 @@ open /home/gitpod/.terraform.d/credentials.tfrc.json
 
 
 # Automate TFC Login
+To ensure that we don't continue to manually login to TF using that long method, we have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
+For this, we first generated TF a token for 30 days (since the bootcamp would be on for only a month), then set it in our workspace with:
+```gp env TERRAFORM_CLOUD_TOKEN='your-token'```
+and:
+```export TERRAFORM_CLOUD_TOKEN='your-token'```
